@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/CqdoE448)
 # Estructura de trabajo
 
 Este proyecto es una aplicación de consola desarrollada en Java que procesa datos de eventos sísmicos del Perú y genera estadísticas útiles. La aplicación permite visualizar y exportar reportes en formato ASCII basados en diferentes criterios.
