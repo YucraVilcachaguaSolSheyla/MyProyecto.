@@ -9,5 +9,17 @@ package proyectofinal.Modelo;
  * @author hilary fernando
  */
 public class ProductoVendido {
-    
+   
+    private String nombreProducto;
+    private int cantidad;
+    private String categoria;
+    public ProductoVendido(String nombreProducto, int cantidad, String categoria) {
+        
+        this.nombreProducto = nombreProducto; 
+        this.cantidad = cantidad; 
+        this.categoria = categoria;
+    }
+    public int getCantidad() { return cantidad; }
+    public String getCategoria() { return categoria; }
+    public String getNombreProducto() { return nombreProducto; }
 }

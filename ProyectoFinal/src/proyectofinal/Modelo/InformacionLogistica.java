@@ -9,5 +9,23 @@ package proyectofinal.Modelo;
  * @author hilary fernando
  */
 public class InformacionLogistica {
-    
+  
+      private String ciudadEntrega;
+    private int tiempoEntrega;
+    private String estadoOrden;
+    public InformacionLogistica(String ciudadEntrega, int tiempoEntrega, String estadoOrden) {
+        
+        this.ciudadEntrega = ciudadEntrega; 
+        this.tiempoEntrega = tiempoEntrega; 
+        this.estadoOrden = estadoOrden;
+    }
+    public String getCiudadEntrega() { 
+        return ciudadEntrega; 
+    }
+    public String getEstadoOrden() { 
+        return estadoOrden; 
+    }
+    public int getTiempoEntrega() { 
+        return tiempoEntrega; 
+    }
 }

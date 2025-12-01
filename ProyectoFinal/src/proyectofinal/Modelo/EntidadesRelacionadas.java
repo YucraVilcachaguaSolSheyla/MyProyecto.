@@ -9,5 +9,22 @@ package proyectofinal.Modelo;
  * @author hilary fernando
  */
 public class EntidadesRelacionadas {
-    
+    private String nombreProveedor;
+    private String nombreRepartidor;
+    private int añoFiscal;
+    public EntidadesRelacionadas(String nombreProveedor, String nombreRepartidor, int añoFiscal) {
+        
+        this.nombreProveedor = nombreProveedor; 
+        this.nombreRepartidor = nombreRepartidor; 
+        this.añoFiscal = añoFiscal;
+    }
+    public int getAñoFiscal() { 
+        return añoFiscal; 
+    }
+    public String getNombreProveedor() { 
+        return nombreProveedor; 
+    }
+    public String getNombreRepartidor() { 
+        return nombreRepartidor; 
+    } 
 }

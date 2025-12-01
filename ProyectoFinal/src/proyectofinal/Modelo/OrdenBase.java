@@ -9,5 +9,24 @@ package proyectofinal.Modelo;
  * @author hilary fernando
  */
 public class OrdenBase {
-    
+    private int idOrden;
+    private String numeroOrden;
+    private String fechaOrden; 
+    public OrdenBase(int idOrden, String numeroOrden, String fechaOrden) {
+        
+        this.idOrden = idOrden; 
+        this.numeroOrden = numeroOrden; 
+        this.fechaOrden = fechaOrden;
+    }
+    public int getIdOrden() 
+    { 
+        return idOrden; 
+    }
+    public String getNumeroOrden() 
+    { 
+        return numeroOrden; 
+    }
+    public String getFechaOrden() { 
+        return fechaOrden; 
+    }  
 }
